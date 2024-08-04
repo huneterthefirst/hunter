@@ -9,4 +9,7 @@ function Tabs(c)
   b.Position = Vector3.new({0.087, 0},{0.128, 0})
   uc:Clone().Parent = b
   t.Position = Vector3.new({0, 0},{0.034, 0})
+  
+  t.Text = c[1] or 'Test'
+  b.Text = c[2] or 'Test2'
 end
