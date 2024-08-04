@@ -23,7 +23,7 @@ local UICorner_7 = Instance.new("UICorner")
 
 --Properties: 
 
-ScreenGui.Parent = plr.PlayerGuis
+ScreenGui.Parent = game.ReplicatedStorage
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
