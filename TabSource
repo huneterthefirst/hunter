@@ -1,4 +1,4 @@
-function Tabs(c)
+function MakeTab(c)
   local s = Instance.new('ScreenGui', plr.PlayerGuis)
   local f = Instance.new('Frame', s)
   local uc = Instance.new('UICorner', f)
