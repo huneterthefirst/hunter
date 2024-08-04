@@ -1,1 +1,4 @@
-print('Hello World!')
+function Tabs(c)
+  local Title = c[1] or 'Title'
+  local Creator = c[2] or 'Notjasi1'
+end
