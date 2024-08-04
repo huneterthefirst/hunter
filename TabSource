@@ -1,4 +1,12 @@
 function Tabs(c)
-  local Title = c[1] or 'Title'
-  local Creator = c[2] or 'Notjasi1'
+  local s = Instance.new('ScreenGui', plr.PlayerGuis)
+  local f = Instance.new('Frame', s)
+  local uc = Instance.new('UICorner', f)
+  local t = Instance.new('TextLabel', f)
+  local b = Instance.new('TextButton', s)
+  
+  f.Position = Vector3.new({0.108, 0},{0.273, 0})
+  b.Position = Vector3.new({0.087, 0},{0.128, 0})
+  uc:Clone().Parent = b
+  t.Position = Vector3.new({0, 0},{0.034, 0})
 end
